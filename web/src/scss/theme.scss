@@ -1,0 +1,63 @@
+html {
+  font-size: 20px;
+}
+#app,
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+  background: #f8f9fa;
+  height: 100%;
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+main {
+  position: relative;
+  min-height: 90vh;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 50px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#searchbar {
+  margin: 3em 0;
+}
+.list-group {
+  margin: 2em 0;
+}
+.b-navbar-nav {
+  color: red;
+}
+.slidedown-enter-active {
+  transition: transform 0.4s ease-out;
+  transform-origin: top;
+}
+.slidedown-enter {
+  transform: scaleY(0);
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

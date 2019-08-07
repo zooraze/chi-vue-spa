@@ -1,0 +1,37 @@
+{
+  "name": "chi-vue-spa",
+  "version": "1.6.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "bootstrap-vue": "^2.0.0-rc.23",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vue-skycons": "^1.0.5"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.8.4",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "Chrome >= 60",
+    "Safari >= 10.1",
+    "iOS >= 10.3",
+    "Firefox >= 54",
+    "Edge >= 15"
+  ]
+}
